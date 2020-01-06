@@ -1,12 +1,12 @@
-import { getEventsList, updateStorage } from './storage.js';
-import { addContentSidebar } from './createSidebar.js';
-import { showPopupWindow } from './showPopupWindow.js';
-import { createEvent } from './createEvent.js';
-import { routingWeeks } from './routingWeeks.js';
-import { deleteObjectEvent } from './deleteEvent.js';
-import { showWeek } from './showWeek.js';
-import { showEvents } from './showEvents.js';
-
+import { getEventsList, updateStorage } from './js/storage.js';
+import { addContentSidebar } from './js/createSidebar.js';
+import { showPopupWindow } from './js/showPopupWindow.js';
+import { createEvent } from './js/createEvent.js';
+import { routingWeeks } from './js/routingWeeks.js';
+import { deleteObjectEvent } from './js/deleteEvent.js';
+import { showWeek } from './js/showWeek.js';
+import { showEvents } from './js/showEvents.js';
+import './index.scss';
 addContentSidebar();
 showPopupWindow();
 createEvent();

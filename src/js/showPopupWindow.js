@@ -1,5 +1,5 @@
 import { getEventById } from './storage.js';
-
+import './popup.scss';
 const scheduleDays = document.querySelector('.days');
 const navigateCreateButton = document.querySelector('.navigate_create');
 const popupLayer = document.querySelector('.popup-layer');

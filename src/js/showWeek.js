@@ -1,6 +1,6 @@
 import { getShowedMonday } from './storage.js';
 import { showEvents } from './showEvents.js';
-
+import './redLine.scss';
 function showWeek() {
     const days = document.querySelector('.days');
     days.innerHTML = '';

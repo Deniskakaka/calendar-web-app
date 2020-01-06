@@ -1,7 +1,7 @@
 import { addEvent, updateEvent, getEventById } from './storage.js';
 import { showEvents } from './showEvents.js';
 import { validationIntersectionEvents } from './validationIntersectionEvents.js';
-
+import './event.scss';
 const btnSave = document.querySelector('.event__btn-save');
 
 function createEvent() {

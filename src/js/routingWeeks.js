@@ -1,6 +1,7 @@
 import { getShowedMonday, setShowedMonday } from './storage.js';
 import { showWeek } from './showWeek.js';
-
+import './header.scss';
+import './schedule.scss';
 function routingWeeks() {
     const arowsRight = document.querySelector('.navigate__arows_right');
     arowsRight.addEventListener('click', moveWeek);
