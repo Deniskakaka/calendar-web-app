@@ -6,9 +6,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
-    "build:scripts": "webpack -p",
-    "clean": "rm -rf ./dist",
-    "build": "npm-run-all clean build:*"
+    "build": "webpack -p"
   },
   "repository": {
     "type": "git",
