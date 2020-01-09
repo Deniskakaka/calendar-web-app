@@ -1,5 +1,5 @@
-import { getEventsLocal } from './storage.js';
-import { showEditPopup } from './showPopupWindow.js';
+import { getEventsLocal } from './storage';
+import { showEditPopup } from './showPopupWindow';
 
 function showEvents() {
   const days = [...document.querySelectorAll('.column-day')];
@@ -109,4 +109,4 @@ function getListEventsHTML(arrEvents, weekDay) {
   });
 }
 
-export { showEvents };
+export { showEvents 

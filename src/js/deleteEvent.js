@@ -1,5 +1,5 @@
-import { deleteEvent, getEventById } from './storage.js';
-import { showEvents } from './showEvents.js';
+import { deleteEvent, getEventById } from './storage';
+import { showEvents } from './showEvents';
 
 const deleteButton = document.querySelector('.event__btn-delete');
 

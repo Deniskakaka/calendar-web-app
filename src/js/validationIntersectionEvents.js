@@ -1,4 +1,4 @@
-import { getEventsLocal } from './storage.js';
+import { getEventsLocal } from './storage';
 
 function validationIntersectionEvents(eventStart, eventEnd, idEvent) {
   const existingEvent = getEventsLocal().find((event) => {

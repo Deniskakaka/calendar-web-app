@@ -1,5 +1,5 @@
-import { getShowedMonday, setShowedMonday } from './storage.js';
-import { showWeek } from './showWeek.js';
+import { getShowedMonday, setShowedMonday } from './storage';
+import { showWeek } from './showWeek';
 import './header.scss';
 import './schedule.scss';
 

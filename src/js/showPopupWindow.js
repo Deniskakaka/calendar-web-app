@@ -1,4 +1,4 @@
-import { getEventById } from './storage.js';
+import { getEventById } from './storage';
 import './popup.scss';
 
 const scheduleDays = document.querySelector('.days');

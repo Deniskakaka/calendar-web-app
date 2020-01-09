@@ -1,5 +1,5 @@
-import { getShowedMonday } from './storage.js';
-import { showEvents } from './showEvents.js';
+import { getShowedMonday } from './storage';
+import { showEvents } from './showEvents';
 import './redLine.scss';
 
 function showWeek() {
