@@ -7,7 +7,9 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "build": "webpack -p",
-    "start": "webpack-dev-server -d --devtools eval-sourse-maps"
+    "start": "webpack-dev-server -d --devtools eval-sourse-maps",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^3.4.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
     "html-webpack-plugin": "^3.2.0",
     "jest": "^24.9.0",
     "mini-css-extract-plugin": "^0.9.0",

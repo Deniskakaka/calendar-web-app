@@ -7,6 +7,7 @@ import { deleteObjectEvent } from './js/deleteEvent.js';
 import { showWeek } from './js/showWeek.js';
 import { showEvents } from './js/showEvents.js';
 import './index.scss';
+
 addContentSidebar();
 showPopupWindow();
 createEvent();
@@ -14,19 +15,19 @@ routingWeeks();
 deleteObjectEvent();
 
 document.addEventListener('DOMContentLoaded', () => {
-    getEventsList()
-        .then(listEvents => {
-            updateStorage('listEvents', listEvents);
-            showEvents();
-        })
-        .catch(err => {
-            console.log(err);
-            updateStorage('listEvents', []);
-        });
+  getEventsList()
+    .then((listEvents) => {
+      updateStorage('listEvents', listEvents);
+      showEvents();
+    })
+    .catch((err) => {
+      console.log(err);
+      updateStorage('listEvents', []);
+    });
 });
 
 window.addEventListener('storage', onStorageChange);
 
 function onStorageChange() {
-    showWeek();
-};
+  showWeek();
+}
